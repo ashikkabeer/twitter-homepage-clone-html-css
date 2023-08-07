@@ -18,11 +18,11 @@ body {
 }
 
 .home {
-    padding-left: 400px;
+    padding-left: 250px;
 }
 
 .search {
-    margin-left: 400px;
+    margin-left: 470px;
     width: 330px;
     height: 50px;
     padding-left: 20px;
@@ -30,22 +30,27 @@ body {
     border: 2px solid;
     border-radius: 100px;
 }
+
 .main-body {
     display: flex;
 }
 
-
+.left-body {
+    width: 250px;
+}
 .side-component {
     display: block;
     width: 150px;
     margin: 15px 0 20px 40px;
     font-size: 23px;
 }
+
 .side-component:hover {
-    background-color:antiquewhite;
+    background-color: antiquewhite;
     padding: 10px;
-    
+
 }
+
 .side-post {
     display: block;
     width: 150px;
@@ -59,18 +64,50 @@ body {
     font-weight: bold;
     border-radius: 50px;
 }
+
 .side-profile {
     display: flex;
     /* width: 30px; */
     margin: 15px 0 20px 40px;
     font-size: 23px;
 }
+
+.side-profile-accnt {
+    display: block;
+}
+
 .side-profile-dp {
     width: 35px;
     border-radius: 100%;
 }
+
 .side-profile-name {
     padding-left: 10px;
-    padding-top: 6px;
-    font-size: 20px;
+    padding-top: 2px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.side-profile-username {
+    font-size: 13px;
+    margin-top: 1px;
+    padding-left: 9px;
+}
+
+.center-body {
+    background-color: azure;
+    width: 600px;
+
+}
+
+.foll-tab {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.for-you,
+.following {
+    font-weight: bold;
+    font-size: 15px;
 }
